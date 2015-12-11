@@ -21,18 +21,20 @@ li a {
     border-right:1px solid #FFF;
 }
 
-li a {
-    background:url(bg.jpg) repeat 0 0;
-}
 
 li a:hover {
     background-position:50px 0;
 }
 
 body {
-    background: white url("images/slider2.png") ;
+    background: white url("images/1.png") ;
 }
 
-h2 {
+.main_block {
     text-align: center;
+    padding: 50px 50px;
+    color: #FFF
+}
+h2 {
+    color: #FFF
 }

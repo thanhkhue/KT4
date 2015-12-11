@@ -20,6 +20,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', views.index)
+    url(r'^$', views.index),
+    url(r'^blog', views.blog ),
 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

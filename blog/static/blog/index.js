@@ -1,9 +1,9 @@
 
-var imgSrcs = ["static/blog/images/khue.png", "static/blog/images/slider2.png"];
+var imgSrcs = ["static/blog/images/1.png", "static/blog/images/2.png"];
 
 setInterval(function() {
     $("body").css("background", "url(" + imgSrcs[imgSrcs.push(imgSrcs.shift())-1] + ")");
-}, 3500);
+}, 3000);
 
 
 // $(document).ready(function(){

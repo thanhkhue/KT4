@@ -16,3 +16,9 @@ def blog(request):
     latest_post_list = Blog.objects.order_by('-publication_date')[:5]
     context = {'latest_post_list': latest_post_list}
     return render(request, 'blog/blog.html', context)
+
+def demo(request):
+    return render(request,'blog/demo2.html')
+
+def contact(request):
+    return render(request,'blog/contact.html')

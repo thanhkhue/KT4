@@ -27,14 +27,14 @@ li a:hover {
 }
 
 body {
-    background: white url("images/1.png") ;
+    background: white url("images/2.png") ;
 }
 
 .main_block {
     text-align: center;
     padding: 50px 50px;
-    color: #FFF
+    color: #111111
 }
 h2 {
-    color: #FFF
+    color: #111111
 }

@@ -1,0 +1,96 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'blog/style.css' %}" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<script src="static/blog/index.js"></script>
+<header>
+    <title>KT4</title>
+</header>
+<body>
+<ul>
+    <li><a href="contact.html"class="glyphicon glyphicon-envelope"><h4>Contact</h4></a></li>
+    <li><a href="https://github.com/thanhkhue/KT4" class="glyphicon glyphicon-globe"><h4>GitHub</h4></a></li>
+    <li><a href="blog.html" class = "glyphicon glyphicon-pencil"><h4>Blog</h4></a></li>
+    <li><a href="#" class="glyphicon glyphicon-home"><h4>Home</h4></a></li>
+
+</ul>
+<div class="main_block">
+    <div class="container">
+        <div class="row">
+            <div class="main_block_text col-md-6 col-md-push-3 col-sm-10 col-sm-push-1">
+                <h2 class="color:#white">We are a team of talented people and hard working.</h2> 
+            </div>
+        </div>
+    </div>
+    </br>
+    <header>
+        <h1>CONTACTS</h1>
+    </header>
+    </br>
+    <h1>
+        <div class="col-md-12">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-1">
+            </div>
+            <a href="#" onclick="$('.alert3').show()">
+                <div class="col-md-1">
+                            <p class = "glyphicon glyphicon-home"></p>
+                        </div>
+            </a>
+            <a href="#" onclick="$('.alert2').show()">
+                <div class="col-md-1">
+                            <p class = "glyphicon glyphicon-envelope"></p>
+                        </div>
+            </a>
+            <a href="#" onclick="$('.alert1').show()">
+                <div class="col-md-1">
+                            <p class = "glyphicon glyphicon-map-marker"></p>
+                        </div>
+            </a>
+            <a href="#" onclick="$('.alert').show()">
+                <div class="col-md-1">
+                            <p class = "glyphicon glyphicon-phone"></p>
+                        </div>
+            </a>
+            <h1></h1>
+        </div>
+        
+        <div class="alert" style="display: none"> 
+            <a class="close" onclick="$('.alert').hide()">×</a>  
+            <strong>(+84-1266600863)</strong>  
+        </div>
+        <div class="alert1" style="display: none"> 
+            <a class="close" onclick="$('.alert1').hide()">×</a>  
+            <strong>
+                <a href="https://www.google.com/maps/place/Wall+Street+Journal/@40.7584571,-73.9842791,17z/data=!3m1!4b1!4m2!3m1!1s0x89c258ff6b2dac81:0x8579374f9050c674">Address</a>
+            </strong>
+        </div>
+        <div class="alert2" style="display: none"> 
+            <a class="close" onclick="$('.alert2').hide()">×</a>  
+            <strong>Email: thanhkhuebkdn2012@gmail.com!</strong>
+        </div>
+        <div class="alert3" style="display: none"> 
+            <a class="close" onclick="$('.alert3').hide()">×</a>  
+            <strong>Wall Street Journal, Avenue of the Americas, Thành phố New York, Tiểu bang New York</strong>
+        </div>
+
+    </h1>
+
+
+
+</div>
+</body>
+</html>
